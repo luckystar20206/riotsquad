@@ -1,0 +1,23 @@
+[data-theme-version="dark"]{
+    .brand-logo.invoice-logo .logo-abbr{
+        filter: brightness(10.5);
+    }
+    .morris_chart_height text tspan {
+		fill: $white;
+	}
+	.apexcharts-gridlines-horizontal line {
+		stroke:$d-border;
+	}
+	.stacked-2:after{
+		background-color: $dark-card;
+	}
+    // .apexcharts-text tspan {
+    //     fill: #7e8dbf;
+    // }
+    .apexcharts-xaxis line {
+        stroke: $d-border;
+    }	
+    .ct-grid {
+        stroke: rgba(255, 255, 255, 0.1);
+    }
+}
